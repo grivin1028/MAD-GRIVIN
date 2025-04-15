@@ -1,33 +1,10 @@
-//1. import core component react-native
-import {Text, View, StyleSheet} from 'react-native';
-//2. Buat component
-//   component adalah function yg return jsx
+import React from 'react';
+import SplashScreen from './src/pages/SplashScreen';
+import Signin from './src/pages/./Signin';
+import Signup from './src/pages/Signup';
+
 const App = () => {
-  return (
-    //jsx
-    <View style={styles.container}>
-      <Text style={styles.title}>Basic React Native</Text>
-    </View>
-  )
+  return <Signup />;
+};
 
-} 
-//3. export component
-export default App
-
-//4. Styling
-const styles = StyleSheet.create({
-  container:{
-    backgroundColor: 'red',
-    borderColor: 'black',
-    borderWidth: 5,
-    padding: 20,
-    margin: 20,
-    borderRadius: 20,
-  },
-  title: {
-    fontSize: 50,
-    fontWeight: '800',
-    color: 'yellow',
-    textAlign: 'center'
-  }
-})
+export default App;

@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     gap: 60,
     alignItems: 'center',
     height: 100,
-    padding: 20,
+    padding: 20, // 
   },
   topContainer: {
     backgroundColor: 'red',
